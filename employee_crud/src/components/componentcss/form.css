@@ -1,0 +1,41 @@
+/* Form container */
+.form-container {
+    max-width: 400px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa; /* Adjust the background color as needed */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  
+  /* Form heading */
+  .form-container h2 {
+    margin-bottom: 20px; /* Add space below the heading */
+  }
+  
+  /* Form input fields */
+  .form-container input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ced4da; /* Add a border */
+    border-radius: 4px;
+  }
+  
+  /* Form button */
+  .form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Button background color */
+    color: #c21e1e; /* Button text color */
+    border: solid;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition */
+  }
+  
+  /* Button hover effect */
+  .form-container button:hover {
+    background-color: #0056b3; /* Adjust the hover background color */
+  }
+  

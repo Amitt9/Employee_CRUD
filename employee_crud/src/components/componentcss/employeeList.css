@@ -1,0 +1,82 @@
+/* Employee List container */
+.employee-list-container {
+    max-width: 800px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Employee List heading */
+  .employee-list-container h2 {
+    margin-bottom: 20px; /* Add space below the heading */
+  }
+  
+  /* Employee List table */
+  .employee-list-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Employee List table header */
+  .employee-list-container th {
+    background-color: #007bff; /* Header background color */
+    color: #fff; /* Header text color */
+    padding: 10px;
+  }
+  
+  /* Employee List table header cells */
+  .employee-list-container th,
+  .employee-list-container td {
+    border: 1px solid #ccc; /* Add border to cells */
+    padding: 8px;
+    text-align: left; /* Align text to the left */
+  }
+  
+  /* Employee List table row hover effect */
+  .employee-list-container tbody tr:hover {
+    background-color: #f5f5f5; /* Add a subtle hover effect */
+  }
+  
+  /* Employee List table actions buttons */
+  .employee-list-container button,
+  .employee-list-container a {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  /* Pagination container */
+  .pagination-container {
+    margin-top: 20px; /* Add space between the table and pagination */
+  }
+  
+  /* Pagination list */
+  .pagination-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Pagination list items */
+  .pagination-container li {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  /* Pagination link */
+  .pagination-container a {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #007bff; /* Link background color */
+    color: #fff; /* Link text color */
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  /* Pagination link hover effect */
+  .pagination-container a:hover {
+    background-color: #0056b3; /* Adjust the hover background color */
+  }
+  
